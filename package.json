@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run build",
-    "build": "webpack -d && copy client\\index.html dist\\index.html && webpack-dev-server --content-base client/ --inline --hot",
+    "build": "webpack -d && copy client\\index.html dist\\index.html && webpack-dev-server --content-base client/ --inline --hot --open",
     "build:prod": "webpack -p && copy client\\index.html dist\\index.html"
   },
   "author": "",

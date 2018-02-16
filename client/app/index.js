@@ -8,7 +8,7 @@ class App extends React.Component {
         super(props);
     }
     render() {
-        "Hello World!"
+        return "Hello World!"
     }
 }
 
